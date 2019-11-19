@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perdfil de Usuario (Guia)</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/standar.css">
+
+    <link rel="stylesheet" href="css/registrarse.css">
+
+
+
+
+</head>
+
+<body>
+    <main>
+        <!--Header opcion 1 -->
+        <header class="header">
+            <div class="container logo-nav-container">
+                <a href="principal.html" class="logo">Cta Tours</a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="catamarca.html">Catamarca</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="acercadenosotros.html">Acerca de nosotros</a></li>
+                        <li><a href="iniciarsesion.html" class="btniniciarsesion">Iniciar Sesión</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb caminoDeMigas">
+                <li class="breadcrumb-item"><a href="principal.html">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="acercadenosotros.html">Acerca De Nosotros</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Guia</li>
+            </ol>
+        </nav>
+
+        <section>
+
+            <div class="container">
+                <div class="py-5 text-center">
+                    <img class="d-block mx-auto mb-4" src="img/user.png" alt="" width="72" height="72">
+                    <h2>Perfil del Guia</h2>
+                    <p class="lead">Datos de Guia</p>
+                    <p class="lead">Clasificacion de Guia: <span class="badge badge-success">Alta :D</span></p>
+
+                    <div class="text-center">
+                            <img src="img/excursiones.png" class="rounded" alt="..." width="200px" height="200px">
+                            <img src="img/ciclistas.jpg" class="rounded" alt="..." width="200px" height="200px">
+                            <img src="img/creston.jpg" class="rounded" alt="..." width="200px" height="200px">
+                            <img src="img/catedral01.jpg" class="rounded" alt="..." width="200px" height="200px">
+                          </div>
+                          <hr class="hrInvisible">
+                          <h4>Contacto</h2>
+                            <p class="lead">+549 3834 000000</p>
+                        <a href="facebook.com">Facebook</a>
+                        <a href="facebook.com">Twitter</a>
+                </div>
+
+               
+
+                        
+
+                        <div>
+                            <h3 class="text-center">Como fue su experiencia con este guia?</h3>
+
+                                <form>
+                                        <div class="mb-3">
+                                                <label for="username">Nombre de Usuario<span class="text-muted">
+                                                        (Si no tiene uno por favor registrece <a href="iniciarsesion.html">Registrarse o Iniciar Sesion</a>)</span></label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">@</span>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="username" placeholder="Username"
+                                                        required="">
+                                                    <div class="invalid-feedback" style="width: 100%;">
+                                                        Your username is required.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 mb-3">
+                                                    <label for="country">Clasificacion</label>
+                                                    <select class="custom-select d-block w-100" id="country" required="">
+                                                        <option value="">...</option>
+                                                        <option>Alta</option>
+                                                        <option>Media</option>
+                                                        <option>Baja</option>
+                                                    </select>
+                                                    <div class="invalid-feedback">
+                                                        Please select a valid country.
+                                                    </div>
+                                                    </div>
+                                        
+                                        
+                                        <div class="form-group">
+                                          <label for="exampleFormControlTextarea1">Alguna observacion?</label>
+                                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                      </form>
+                        </div>
+
+
+                
+                
+
+
+        </section>
+
+        <footer class="footer">
+                <div class="container">
+                    <address>Pag diseñada por @estenoesmonti</address>
+                    <a href="#">Volver arriba</a>
+    
+                </div>
+    
+            </footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>

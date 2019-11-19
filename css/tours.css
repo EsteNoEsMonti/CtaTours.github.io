@@ -1,0 +1,48 @@
+/*codigo que me da bootstrbp*/
+.bd-placeholder-img {
+     font-size: 1.125rem; 
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+         font-size: 3.5rem; 
+    }
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+
+.imagencentrar
+{
+  	background-image: url("../img/ciclistas.jpg");     
+}
+
+/* .textConFondo
+{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+} */
+
+/* .caminoDeMigas
+{
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    
+
+    margin-bottom: 0px;
+    border-radius: 0px;
+} */
+
+form input
+{
+    margin-bottom: 10px;
+}
+
+div svg
+{
+    align-content: center;
+
+}

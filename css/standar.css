@@ -1,0 +1,143 @@
+main, body, html 
+{
+ 	width: 100%;
+ 	height: 100%; 
+}
+
+body 
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto; /*cero arriba ya abajo, auto a los lados*/
+}
+
+.header {
+	background: tomato;
+	padding: 1rem 0; /*padding = relleno, 2 rem arriba y abajo, 0 a los lados*/	
+}
+.header a /*elementos a dentro del header*/
+{
+	color: white;
+	text-decoration: none;
+}
+
+.logo-nav-container
+{
+	display: flex;
+	justify-content: space-between; /*los elementos se fustifiquen con el espacio entre medio*/
+	align-items: center;
+}
+
+.navigation ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navigation ul li
+{
+	display: inline-block;
+}
+.navigation ul li a
+{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px
+}
+.navigation ul li a:hover
+{
+	background: #4a4a4a;
+}
+
+/*exclusivo para boton de iniciar sesion del nav principal*/
+.navigation ul li a.btniniciarsesion
+{
+    /*border-style: solid;*/
+    border: solid 1px;
+}
+
+.logo
+{
+	letter-spacing: 5px;
+	font-size: 1.3em;
+}
+
+hr
+{
+  	max-width: 500px;
+  	border-width: 3px;
+  	border-color: tomato; 
+}
+
+.hrInvisible
+{
+	max-width: 500px;
+  	border-width: 0px;
+  	border-color: tomato;
+}
+
+.imagencentrar
+{
+	/*display: block;  agregado pero no se si es esto, si la pagina queda fea es culpa de monge*/
+	background-position: center;
+  	background-image: url("../img/catedral01.jpg");
+ 	background-size: cover;
+ 	width: 100%;
+    height: 50%;
+    border-radius: 0px; /*lo tengo que agregar pq no sé porque se le pone las puntas redondas a la img*/
+     
+}
+
+.imagencentrar h1
+{
+	font-size: 5rem;
+	color: rgba(255, 255, 255, 0.9);
+
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+.caminoDeMigas
+{
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    
+
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.textConFondo
+{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+    color: tomato;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+.footer
+{
+	margin-top: 2%;
+    background-color: tomato;
+    min-height: 7%;
+    
+
+}

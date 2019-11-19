@@ -1,0 +1,78 @@
+body,html 
+{
+  width: 100%;
+  height: 100%; 
+}
+
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr 
+{
+    max-width: 500px;
+    border-width: 0px;
+    border-color: #F05F44; 
+}
+
+/*Texto medio transparente .faded*/
+.mediotransparente
+{
+    color: rgba(255, 255, 255, 0.9); 
+}
+
+/*parta ubicar el header, que contiene todo lo de la landding page*/
+header.startup 
+{
+    background-position: center;
+    background-image: url("../img/catedral01.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+header.startup hr 
+{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+header.startup h1 
+{
+    font-size: 5rem; 
+}
+
+/*Cambiando la estilo de las clases de bootstrap*/
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn-xl {
+    padding: 1rem 1.70rem; 
+  }
+  
+  .btn-primary {
+    background-color:rgba(255,99,71,0.3); /*rgba(255,99,71,1)*/
+    border-color: rgba(255,255,255,1); }
+  
+  .btn-primary:hover {
+    background-color: rgba(255,99,71,1);
+    border-color: rgba(255,255,255,1);
+    /*border-width: 3px;*/
+    cursor: pointer;
+  }
+
+  .btn-primary:active {
+    background-color: rgba(241, 95, 69, 0.644);
+    border-color: rgba(255,255,255,1);
+    /*border-width: 3px;*/
+  }
+
+  .btn-primary:visited {
+    background-color:rgba(255,99,71,0.3); /*rgba(255,99,71,1)*/
+    border-color: rgba(255,255,255,1); }
+
+
